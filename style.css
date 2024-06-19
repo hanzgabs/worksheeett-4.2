@@ -1,0 +1,230 @@
+body{
+    background-color: maroon;
+    font-family: century gothic;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+
+}
+.wrapper{
+    background-color: white;
+    width: 1000px;
+    height: 1800px;
+    margin: auto;
+    padding: 20px;
+    border-top: 10px solid gold;
+    border-bottom: 10px solid gold;
+
+}
+.header{
+    padding: 20px;
+}
+
+.nav{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.nav ul{
+    margin: 0;
+    padding: 10px 0;
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.nav ul li a {
+    text text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 10px;
+}
+.nav ul li a.active{
+    color: black;
+
+} 
+.nav ul li a:hover{
+    background-color: red;
+    color: black;
+}
+.banner, .banner img{
+    width: 100%;
+    height: 250px;
+}
+.main{
+    min-height: 500px;
+}
+.left-side-bar{
+    width: 190px;
+    float: left;
+    border: 1px solid black;
+    min-height: 50px;
+    margin: 10px 10px 10px 0;
+}
+.left-side-bar h2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.left-side-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.left-side-bar  ul li{
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.left-side-bar ul li a{
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+}
+.left-side-bar ul li a:hover{
+    color: black;
+}
+.content{
+    width: 550px;
+    float: left;
+    min-height:500px;
+    margin: 10px;
+}
+.content h1{
+    padding: 0;
+    margin: 0;
+    color: orangered;
+    font-size: 30px;
+    border-bottom: 1px dotted black;
+}
+.content h2{
+    color: black;
+
+}
+.content p{
+    text-align: justify;
+    line-height: 1.5:;
+}
+/* Additional CSS for the contact form */
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.contact-form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form-container input[type="text"],
+.contact-form-container input[type="email"],
+.contact-form-container input[type="password"],
+.contact-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form-container input[type="radio"] {
+    margin-right: 10px;
+}
+
+.contact-form-container button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form-container button[type="reset"] {
+    background-color: #f44336;
+}
+
+.contact-form-container button:hover {
+    opacity: 0.8;
+}
+.clickable-section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    background-color: #e8f5e9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clickable-section a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.clickable-section a:hover {
+    color: #388E3C;
+}
+
+/* CSS for the new announcement boxes */
+.box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-box {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.img-box img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.detail-box h5 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.detail-box p {
+    font-size: 16px;
+    color: #555;
+}
+
+.detail-box a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.detail-box a:hover {
+    color: #388E3C;
+}
